@@ -33,7 +33,7 @@ function InstagramPage() {
 						<Icon icon="emojione-monotone:couple-with-heart" className="h-6 w-6 sm:h-6 sm:w-6 md:h-16 md:w-16" />
 					</div>
 					<div className="ml-2 px-2 py-4 sm:ml-10 sm:px-2 sm:py-2 md:px-14 md:py-12 md:ml-20 md:mr-20">
-						<span className="text-2xl md:text-5xl font-Birthstone">Diana & Trisnanadi</span>
+						<span className="text-2xl md:text-5xl font-Birthstone">Trisnanadi & Diana</span>
 					</div>
 				</div>
 				<div className="flex justify-center text-center pt-0 md:mx-20">
