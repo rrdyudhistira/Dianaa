@@ -3,7 +3,7 @@ import Image from 'next/image'
 import heroImage from '../images/main-img-1.jpg'
 import CommentSection from './features/commentSection'
 // import ConfirmSection from './features/confirmSection'
-import FormSection from './features/formSection'
+// import FormSection from './features/formSection'
 import { Icon } from '@iconify/react';
 import { useRouter } from 'next/router';
 
@@ -58,7 +58,7 @@ function InstagramPage() {
 				</div>
 			</div>
 			<CommentSection pesan={pesan} getJumlahPesan={getJumlahPesan} />
-			<FormSection setPesan={setPesan}/>
+			{/* <FormSection setPesan={setPesan}/> */}
 		</section>
 	</>
   )
