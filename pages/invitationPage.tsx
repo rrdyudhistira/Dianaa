@@ -70,7 +70,7 @@ function InvitationPage() {
                     </div>
                     <div className="flex-shrink-0 text-center">
                         <h1 className="font-Pacifico text-xs md:text-xl">
-                            Bapak Sertu Suwardi dan Ibu Kartini
+                            Bapak Sertu Suwardi dan Ibu Rd. Kartini
                         </h1>
                     </div>
 

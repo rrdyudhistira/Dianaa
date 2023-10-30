@@ -11,13 +11,13 @@ function HomePage() {
         {/* Diana & Trys Text */}
         <div className="flex justify-center text-center md:mx-20 md:pt-20 pt-10">
             <div className="flex-shrink-0 text-center">
-                <h1 className="font-Birthstone text-6xl md:text-8xl md:pb-2">
+                <h1 className="font-Birthstone text-4xl md:text-6xl md:pb-2">
                 Trisnandi Esa Saputra
                 </h1>
-                <h1 className="font-Birthstone text-6xl md:text-8xl md:pb-2">
+                <h1 className="font-Birthstone text-4xl md:text-6xl md:pb-2">
                     &
                 </h1>
-                <h1 className="font-Birthstone text-6xl md:text-8xl md:pb-2">
+                <h1 className="font-Birthstone text-4xl md:text-6xl md:pb-2">
                   
                     Diana Apriliyani
                 </h1>
