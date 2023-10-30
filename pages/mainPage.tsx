@@ -26,7 +26,7 @@ export default function Home() {
             <GalleryPage />
             <PrayPage />
             {/* <ProkesPage /> */}
-            {/* <InstagramPage /> */}
+            <InstagramPage />
             <Footer/>
       </div>
 			<MusicPlayer />
