@@ -22,7 +22,7 @@ export default function Home() {
       <div data-aos="fade-up" className="bg-cream w-full">
             <HomePage />
             <InvitationPage />
-            {/* <InformationPage /> */}
+            <InformationPage />
             <GalleryPage />
             <PrayPage />
             {/* <ProkesPage /> */}
