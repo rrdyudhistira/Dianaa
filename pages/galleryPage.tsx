@@ -1,21 +1,21 @@
 import React, {useEffect} from 'react'
 import Image from 'next/image'
 import heroImage from '../images/banner-gallery.jpg'
-import item1 from '../images/gallery/item-1.2.jpg'
+// import item1 from '../images/gallery/item-1.2.jpg'
 import item2 from '../images/gallery/item-9.jpg'
-import item3 from '../images/gallery/item-3.1.jpg'
+// import item3 from '../images/gallery/item-3.1.jpg'
 import item4 from '../images/gallery/item-4.1.jpg'
 import item5 from '../images/gallery/item-5.1.jpg'
 import item6 from '../images/gallery/item-6.2.jpg'
 import item7 from '../images/gallery/item-7.jpg'
-import item8 from '../images/gallery/item-8.jpg'
+// import item8 from '../images/gallery/item-8.jpg'
 import item9 from '../images/gallery/item-6.1.jpg'
 import item10 from '../images/gallery/item-10.jpg'
 import item11 from '../images/gallery/item-11.jpg'
 import item14 from '../images/gallery/item-15.jpg'
 import itemLamaran1 from '../images/gallery/item-lamaran-1.jpg'
 import itemLamaran2 from '../images/gallery/item-lamaran-2.jpg'
-import itemLamaran3 from '../images/gallery/item-lamaran-3.jpg'
+// import itemLamaran3 from '../images/gallery/item-lamaran-3.jpg'
 import itemLamaran4 from '../images/gallery/item-lamaran-4.jpg'
 import itemLamaran5 from '../images/gallery/item-lamaran-5.jpg'
 import itemLamaran6 from '../images/gallery/item-lamaran-6.jpg'
@@ -81,7 +81,7 @@ function GalleryPage() {
         {/* Two Side 1 */}
         <div className="grid grid-rows-2 grid-flow-col gap-4 pb-5 px-4 md:mx-20 md:pt-6">
             {/* left side */}
-            <div data-aos="zoom-in" data-aos-duration="1500" className="row-span-3 w-full h-64 md:w-4/5 md:h-72 lg:w-full lg:h-128 shadow-xl rounded-xl relative px-14 md:px-44 flex-shrink-0">
+            {/* <div data-aos="zoom-in" data-aos-duration="1500" className="row-span-3 w-full h-64 md:w-4/5 md:h-72 lg:w-full lg:h-128 shadow-xl rounded-xl relative px-14 md:px-44 flex-shrink-0">
                 <Image
                     src={itemLamaran3}
                     alt="itemLamaran3"
@@ -89,7 +89,7 @@ function GalleryPage() {
                     objectFit="cover"
                     className="rounded-xl cursor-pointer"
                 ></Image>
-            </div>
+            </div> */}
             {/* <div data-aos="zoom-in" data-aos-duration="1500" className="row-span-3 w-full h-64 md:w-4/5 md:h-72 lg:w-full lg:h-128 shadow-xl rounded-xl relative px-14 md:px-44 flex-shrink-0">
                 <Image
                     src={itemLamaran4}
@@ -125,9 +125,9 @@ function GalleryPage() {
         </div>
 
         {/* First 3 */}
-        <div className="grid grid-rows-2 grid-flow-col gap-4 px-4 md:mx-20 md:pt-2">
+        {/* <div className="grid grid-rows-2 grid-flow-col gap-4 px-4 md:mx-20 md:pt-2"> */}
             {/* left side */}
-            <div data-aos="zoom-in" data-aos-duration="1500" className="row-span-3 w-full h-64 md:w-full md:h-full lg:w-full lg:h-full shadow-xl rounded-xl relative px-14 md:px-44 flex-shrink-0">
+            {/* <div data-aos="zoom-in" data-aos-duration="1500" className="row-span-3 w-full h-64 md:w-full md:h-full lg:w-full lg:h-full shadow-xl rounded-xl relative px-14 md:px-44 flex-shrink-0">
                 <Image
                     src={item1}
                     alt="item1"
@@ -135,9 +135,9 @@ function GalleryPage() {
                     objectFit="cover"
                     className="rounded-xl cursor-pointer"
                 ></Image>
-            </div>
+            </div> */}
             {/* right side */}
-            <div data-aos="zoom-in" data-aos-duration="1500" className="col-span-2 w-full h-32 md:w-4/5 md:h-72 lg:w-full lg:h-128 shadow-xl rounded-xl relative px-12 flex-shrink-0">
+            {/* <div data-aos="zoom-in" data-aos-duration="1500" className="col-span-2 w-full h-32 md:w-4/5 md:h-72 lg:w-full lg:h-128 shadow-xl rounded-xl relative px-12 flex-shrink-0">
                 <Image
                     src={item8}
                     alt="item8"
@@ -154,11 +154,11 @@ function GalleryPage() {
                     objectFit="cover"
                     className="rounded-xl cursor-pointer"
                 ></Image>
-            </div>
-        </div>
+            </div> */}
+        {/* </div> */}
 
         {/* Two Side 1 */}
-        <div className="grid grid-rows-2 grid-flow-col gap-4 pb-5 px-4 md:mx-20 md:pt-6">
+        {/* <div className="grid grid-rows-2 grid-flow-col gap-4 pb-5 px-4 md:mx-20 md:pt-6"> */}
             {/* left side */}
             {/* <div data-aos="zoom-in" data-aos-duration="1500" className="row-span-3 w-full h-64 md:w-4/5 md:h-72 lg:w-full lg:h-128 shadow-xl rounded-xl relative px-14 md:px-44 flex-shrink-0">
                 <Image
@@ -178,10 +178,10 @@ function GalleryPage() {
                     className="rounded-xl cursor-pointer"
                 ></Image>
             </div> */}
-        </div>
+        {/* </div> */}
         
         {/* Secoond 3 */}
-        <div className="grid grid-rows-2 grid-flow-col gap-4 px-4 md:mx-20 md:pt-2">
+        {/* <div className="grid grid-rows-2 grid-flow-col gap-4 px-4 md:mx-20 md:pt-2"> */}
             {/* left side */}
             {/* <div data-aos="zoom-in" data-aos-duration="1500" className="col-span-2 w-full h-32 md:w-4/5 md:h-72 lg:w-full lg:h-128 shadow-xl rounded-xl relative px-12 flex-shrink-0">
                 <Image
@@ -211,7 +211,7 @@ function GalleryPage() {
                     className="rounded-xl cursor-pointer"
                 ></Image>
             </div> */}
-        </div>
+        {/* </div> */}
 
         {/* Two Side 2 */}
         {/* <div className="grid grid-rows-2 grid-flow-col gap-4 px-4 md:mx-20 md:pt-6"> */}

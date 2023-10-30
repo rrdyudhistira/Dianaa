@@ -15,7 +15,7 @@ function InvitationPage() {
     return (
         <section id="invitation">
             {/* Hero Image */}
-            <div className="flex justify-center text-center pt-20 pb-10 md:mx-20 md:pt-20">
+            {/* <div className="flex justify-center text-center pt-20 pb-10 md:mx-20 md:pt-20">
                 <div data-aos="fade-up" className="w-11/12 h-36 md:w-4/5 md:h-72 lg:w-full lg:h-128 shadow-xl rounded-xl relative px-10 flex-shrink-0">
                     <Image
                         src={heroImage}
@@ -28,7 +28,7 @@ function InvitationPage() {
                         Invitation
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* Invitation Text */}
             <div className="flex justify-center text-center pt-4 pb-5 md:mx-20 md:pt-4">
