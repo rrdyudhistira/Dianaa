@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Image from 'next/image'
 import heroImage from '../images/main-img-1.jpg'
 import CommentSection from './features/commentSection'
-import ConfirmSection from './features/confirmSection'
+// import ConfirmSection from './features/confirmSection'
 import FormSection from './features/formSection'
 import { Icon } from '@iconify/react';
 import { useRouter } from 'next/router';
@@ -19,13 +19,13 @@ function InstagramPage() {
   return (
 	  <>
 		<section id="rsvp">
-			{ p == "undangan" ? (
+			{/* { p == "undangan" ? (
 				<>
 					<ConfirmSection />
 				</>
 			) : ( 
 				null
-			 )}
+			 )} */}
 			{/* Hero Image */}
 			<div className="grid grid-rows-0 gap-0 pb-1">
 				<div className="flex justify-start sm:ml-0 space-x-0">
