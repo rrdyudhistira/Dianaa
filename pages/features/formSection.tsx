@@ -27,7 +27,7 @@ function FormSection({setPesan: setPesan}: any) {
             pesan:pesan,
             parameter_name: router.query.to || "Tamu Undangan"
         }
-        const res: any = await axios.post(apiEndPoint, post)
+        const res: any = await axios.post(apiEndPointLocal, post)
         setPesan(post ? res.data.data.id : false)
         inputName.current.value = ''
         inputPesan.current.value = ''

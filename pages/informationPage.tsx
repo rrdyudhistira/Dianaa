@@ -58,14 +58,14 @@ function InformationPage() {
       <div className="flex justify-between text-center px-6 pb-5 md:px-96">
         <div className="bg-choco px-4 py-4 md:px-8 md:py-6 text-white rounded-md text-xs md:text-lg">
           <div className="justify-center text-center space-y-2">
-           <Icon icon="fxemoji:couplekiss" color="rgba(0, 0, 68, 0.2)" className="w-8 h-8" />
+           {/* <Icon icon="fxemoji:couplekiss" color="rgba(0, 0, 68, 0.2)" className="w-8 h-8" /> */}
             <p className="font-Pacifico">Akad Nikah</p>
             <p className="font-Pacifico">08.00 - 09.00 WIB</p>
           </div>
         </div>
         <div className="bg-choco px-4 py-4 md:px-8 md:py-6 text-white rounded-md text-xs md:text-lg">
           <div className="justify-center text-center space-y-2">
-            <Icon icon="fxemoji:couplekiss" color="rgba(0, 0, 68, 0.2)" className="w-8 h-8" />
+            {/* <Icon icon="fxemoji:couplekiss" color="rgba(0, 0, 68, 0.2)" className="w-8 h-8" /> */}
             <p className="font-Pacifico">Resepsi</p>
             <p className="font-Pacifico">09.00 WIB - 17.00 WIB</p>
           </div>

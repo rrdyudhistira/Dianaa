@@ -29,7 +29,7 @@ function ConfirmSection() {
             is_hadir:attend,
             parameter_name: router.query.to || "Tamu Undangan"
         }
-        await axios.post(apiEndPoint, post)
+        await axios.post(apiEndPointLocal, post)
         Swal.fire({   
             title: 'Terimakasih Telah melakukan konfirmasi!',
             icon: 'success',
